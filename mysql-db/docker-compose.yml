@@ -1,0 +1,5 @@
+services:
+  mysqltest:
+    build: .
+    ports: 
+      - "6603:3306"
